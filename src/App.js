@@ -6,8 +6,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Box name={"Big Component"} maxValue={40} numberOfBalls={5} />
-        <Box name={"Mini Component"} maxValue={10} numberOfBalls={3} />
+        <Box name={"Lotto"} maxValue={40} numberOfBalls={5} />
+        <Box name={"Motto"} maxValue={10} numberOfBalls={3} />
       </div>
     );
   }
