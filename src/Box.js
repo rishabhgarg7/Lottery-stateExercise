@@ -39,7 +39,12 @@ class Box extends Component {
         ))}
         <br />
         <br />
-        <button onClick={this.handleClick}>Generate Lottery Numbers</button>
+        <button
+          onClick={this.handleClick}
+          className="bttn-unite bttn-md bttn-primary"
+        >
+          Generate Lottery Numbers
+        </button>
       </div>
     );
   }
